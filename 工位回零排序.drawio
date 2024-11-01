@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" version="24.7.7">
   <diagram name="第 1 页" id="nCe2BLYubYKYabbMRFqI">
-    <mxGraphModel dx="1702" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2577" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,6 +224,46 @@
         </mxCell>
         <mxCell id="JgmFc6yPYDbwjneIxN74-79" value="输出stationN-1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JgmFc6yPYDbwjneIxN74-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-84" value="距离动子最近的工站" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JgmFc6yPYDbwjneIxN74-82">
+          <mxGeometry x="-0.1407" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JgmFc6yPYDbwjneIxN74-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-81" value="找出来的工站有两种结果第一种距离动子最近的工站，第二种距离工站最近的动子" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JgmFc6yPYDbwjneIxN74-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-85" value="结果不唯一" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JgmFc6yPYDbwjneIxN74-86" target="JgmFc6yPYDbwjneIxN74-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-86" value="结果不唯一" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-88" value="需要在所有工站距离同一个动子最近时选出最近的工站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JgmFc6yPYDbwjneIxN74-89" value="轮训一遍动子不同，工站相同的序列，找出一组动子最近的工站" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
